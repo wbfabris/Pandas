@@ -7,6 +7,7 @@ import sqlite3
 #conn = sqlite3.connect("flights.db")
 # df = pd.read_sql_query("select * from airlines limit 5;", conn)
 # df
+
 wsql = ''
 wsql = '{}'. format('select ')
 wsql = wsql + '{}\n'.format('nu_r1 B01, nu_r2 B02,   nu_r3 B03,   nu_r4 B04, nu_r5  B05, ')
